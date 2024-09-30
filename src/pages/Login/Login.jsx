@@ -37,7 +37,7 @@ export const Login = () => {
                   <FormGroup>
                     <input
                       type="email"
-                      placeholder="Email"
+                      placeholder="Эл. адрес"
                       id="email"
                       onChange={handleChange}
                       required
@@ -46,7 +46,7 @@ export const Login = () => {
                   <FormGroup>
                     <input
                       type="password"
-                      placeholder="Password"
+                      placeholder="Пароль"
                       id="password"
                       onChange={handleChange}
                       required
@@ -56,7 +56,7 @@ export const Login = () => {
                     className="btn secondary__btn auth__btn"
                     type="submit"
                   >
-                    Login
+                    Авторизоваться
                   </Button>
                 </Form>
                 <p>

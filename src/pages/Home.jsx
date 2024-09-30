@@ -26,7 +26,7 @@ export const Home = () => {
             <Col lg="6">
               <div className="hero__content">
                 <div className="hero__subtitle d-flex align-items-center">
-                  <Subtitle subtitle={"Know before you Go"} />
+                  <Subtitle subtitle={"Знайте, прежде чем ехать"} />
                   <img src={worldImg} alt="worldImg" />
                 </div>
                 <h1>

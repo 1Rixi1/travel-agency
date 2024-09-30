@@ -32,10 +32,10 @@ const SearchBar = () => {
             </span>
 
             <div>
-              <h6>Location</h6>
+              <h6>Расположение</h6>
               <input
                 type="text"
-                placeholder="Where are you going ?"
+                placeholder="Куда едете ?"
                 ref={locationRef}
               />
             </div>
@@ -47,10 +47,10 @@ const SearchBar = () => {
             </span>
 
             <div>
-              <h6>Distance</h6>
+              <h6>Расстояние</h6>
               <input
                 type="number"
-                placeholder="Distance k/m"
+                placeholder="Расстояние"
                 ref={distanceRef}
               />
             </div>
@@ -62,7 +62,7 @@ const SearchBar = () => {
             </span>
 
             <div>
-              <h6>Max People</h6>
+              <h6>Кол-во людей</h6>
               <input type="number" placeholder="0" ref={maxPeopleRef} />
             </div>
           </FormGroup>

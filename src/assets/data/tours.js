@@ -9,24 +9,24 @@ import tourImg07 from "../images/tour-img07.jpg";
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Вестминстерский мост",
+    city: "Лондон",
     distance: 300,
-    address: "Somewhere",
+    address: "Вестминстерский мост, Лондон",
     price: 99,
     maxGroupSize: 10,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
       {
-        name: "chris brown doe",
+        name: "Крис Браун Доу",
         rating: 4.6,
       },
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -36,24 +36,24 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Бали, Индонезия",
+    city: "Индонезия",
     distance: 400,
-    address: "Somewhere",
+    address: "Бали, Индонезия",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
       {
-        name: "chris brown doe",
+        name: "Крис Браун Доу",
         rating: 4.6,
       },
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -63,24 +63,24 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Заснеженные горы, Таиланд",
+    city: "Таиланд",
     distance: 500,
-    address: "Somewhere",
+    address: "Заснеженные горы, Таиланд",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
       {
-        name: "chris brown doe",
+        name: "Крис Браун Доу",
         rating: 4.6,
       },
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -90,24 +90,24 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Красивый рассвет, Таиланд",
+    city: "Таиланд",
     distance: 500,
-    address: "Somewhere",
+    address: "Красивый рассвет, Таиланд",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
       {
-        name: "chris brown doe",
+        name: "Крис Браун Доу",
         rating: 4.6,
       },
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -117,16 +117,16 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Нуса Пенида, Бали, Индонезия",
+    city: "Индонезия",
     distance: 500,
-    address: "Somewhere",
+    address: "Нуса Пенида, Бали, Индонезия",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -136,16 +136,16 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Весна цветущей сакуры",
+    city: "Япония",
     distance: 500,
-    address: "Somewhere",
+    address: "Цветущие сады, Япония",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
     ],
@@ -155,13 +155,13 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Хольмен Лофотен",
+    city: "Франция",
     distance: 500,
-    address: "Somewhere",
+    address: "Хольмен, Лофотен, Франция",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [],
     avgRating: 4.5,
     photo: tourImg07,
@@ -169,21 +169,21 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Заснеженные горы, Таиланд",
+    city: "Таиланд",
     distance: 500,
-    address: "Somewhere",
+    address: "Заснеженные горы, Таиланд",
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "это описание",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Джон Доу",
         rating: 4.6,
       },
 
       {
-        name: "deniel metty",
+        name: "Дэниел Метти",
         rating: 4.6,
       },
     ],
@@ -192,5 +192,6 @@ const tours = [
     featured: false,
   },
 ];
+
 
 export default tours;

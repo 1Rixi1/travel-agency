@@ -39,7 +39,7 @@ export const Register = () => {
                   <FormGroup>
                     <input
                       type="text"
-                      placeholder="Username"
+                      placeholder="Имя пользователя"
                       id="username"
                       onChange={handleChange}
                       required
@@ -48,7 +48,7 @@ export const Register = () => {
                   <FormGroup>
                     <input
                       type="email"
-                      placeholder="Email"
+                      placeholder="Эл. адрес"
                       id="email"
                       onChange={handleChange}
                       required
@@ -57,7 +57,7 @@ export const Register = () => {
                   <FormGroup>
                     <input
                       type="password"
-                      placeholder="Password"
+                      placeholder="Пароль"
                       id="password"
                       onChange={handleChange}
                       required
@@ -67,7 +67,7 @@ export const Register = () => {
                     className="btn secondary__btn auth__btn"
                     type="submit"
                   >
-                    Create Account
+                    Создать аккаунт
                   </Button>
                 </Form>
                 <p>

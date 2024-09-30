@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import { useParams } from "react-router-dom";
 
 import tourData from "../../assets/data/tours";
@@ -41,6 +41,10 @@ export const TourDetails = () => {
 
     alert(`${reviewText}, ${tourRating}`);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Прокручивает страницу наверх
+  }, []);
 
   return (
     <section>
@@ -88,7 +92,7 @@ export const TourDetails = () => {
               </div>
 
               <div className="tour__reviews mt-4">
-                <h4>Reviews ({reviews?.length} reviews)</h4>
+                <h4>Отзывы ({reviews?.length})</h4>
 
                 <Form onSubmit={submitHandler}>
                   <div className="d-flex align-items-center gap-4 mb-4 rating__group">

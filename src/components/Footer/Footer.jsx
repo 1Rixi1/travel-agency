@@ -97,7 +97,7 @@ export const Footer = () => {
                   <span>
                     <i className="ri-mail-line"></i>
                   </span>
-                  <span>Email :</span>
+                  <span>Эл. адрес :</span>
                 </h6>
 
                 <p>test@test.com</p>

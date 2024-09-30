@@ -6,7 +6,7 @@ export const NewsLetter = () => {
       <h2>Подпишитесь, чтобы получать полезную информацию о путешествиях</h2>
 
       <div className="newsletter__input">
-        <input type="email" placeholder="Enter your email" />
+        <input type="email" placeholder="Введите свой эл. адрес" />
         <button className="newsletter__btn btn">Подписаться</button>
       </div>
       <p>

@@ -35,7 +35,7 @@ export const Booking = ({ tour, avgRating }) => {
     <div>
       <div className="booking__top d-flex align-items-center justify-content-between">
         <h3>
-          ${price} <span>/per person</span>
+          ${price} <span>/ за человека</span>
         </h3>
         <span className="tour__rating d-flex align-items-center">
           <i
@@ -47,7 +47,7 @@ export const Booking = ({ tour, avgRating }) => {
       </div>
 
       <div className="booking__form">
-        <h5>Information</h5>
+        <h5>Информация</h5>
         <Form className="booking__info-form" onSubmit={handleClick}>
           <FormGroup>
             <input
